@@ -1,0 +1,172 @@
+.icon-input {
+    background-color: #1E2772;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 1rem;
+    border-radius: 5px;
+    width: 60px;
+    font-size: 1.25rem;
+}
+
+form input {
+    background-color: #EEEEEE;
+    border: 0;
+    padding: 0.8rem 0;
+}
+
+.btn-log {
+    padding: 0.7rem 0 !important;
+    background-color: #1E2772 !important;
+    color: white !important;
+
+}
+.btn-sign {
+    padding: 0.7rem 0;
+    background-color: transparent;
+    border: 2px solid #1E2772;
+    color: #1E2772;
+}
+.text-muted-07 {
+    color: rgb(200, 200, 200);
+}
+.line {
+    height: 2px;
+    background-color: rgb(200, 200, 200);
+    width: 100%;
+}
+
+.main-con {
+    height: 100vh;
+}
+
+.background-01 {
+    height: 95vh;
+    background-image: url(Background.png);
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+}
+
+
+.con-form {
+    height: 95vh !important; 
+    display: flex;
+    align-items: center;
+}
+
+.bg {
+    z-index: -1;
+  
+}
+
+.bg-left {
+    background-image: url(Vector\ \(3\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.border-inherit {
+    border-top-left-radius: inherit !important;
+    border-bottom-left-radius: inherit !important;
+}
+
+.login {
+    position: absolute;
+    scale: 0.8;
+    rotate: -24deg;
+    left: -12%;
+    top: -15%;
+}
+
+.signin {
+    scale: 0.9;
+    position: absolute;
+    z-index: 999 !important;
+    background-color: white;
+    padding: 2rem;
+    width: 400px !important;
+    bottom: 0%;
+    right: 5%;
+    border-radius: 25px;
+}
+
+.main-con-log {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.text {
+    position: absolute;
+    bottom: 5%; right: 32%;
+}
+
+label {
+    cursor: pointer;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prompt {
+    width: 40%;
+    background-color: rgb(214, 214, 214);
+    color: rgb(39, 39, 39);
+}
+
+.strength {
+    font-size: 0.5rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .main-con {
+    height: auto;
+  }
+  .con-form {
+  height: auto !important;
+  }
+  .background-01 {
+    border-top-right-radius: inherit;
+    border-bottom-left-radius: 0;
+  }
+
+
+  }
+
+  @media screen and (max-width: 992px) {
+    .signin {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 100% !important;
+    }
+
+    .login {
+        display: none !important;
+    }
+    .prompt {
+        width: 95%;
+    }
+  }
+
+
+
